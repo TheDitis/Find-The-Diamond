@@ -1,5 +1,5 @@
 # Find-The-Diamond
-Find the diamond on an NxN grid using directional hits.
+Find the diamond on an NxN grid using directional hints.
 
 First the grid (numpy array) is created, and then a 'diamond' is randomly assigned to a point on the grid.
 Every time you guess incorrectly you will get a directional clue in the form of N, SE, NW, etc.
