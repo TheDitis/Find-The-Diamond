@@ -17,3 +17,4 @@ where_to is used by auto_solve to tell it where to go next. The idea is that it 
 where_to tells it whether to add or subtract the difference between the last guess and the current, and which coordinate(s) to apply the operation to.
 
 auto_solve iterates through where_to some number of times, feeding back to itself its’ new suggested cardinal direction, its’ previous guess, and its new coordinates to check. It prints out the direction and the coordinates it is trying until it strikes diamond.
+
